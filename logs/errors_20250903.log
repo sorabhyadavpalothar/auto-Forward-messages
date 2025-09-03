@@ -1,0 +1,3 @@
+2025-09-03 08:11:12 | TelegramForwarder | ERROR | run_user_forwarding_cycle:535 | [+919720613767] Error in forwarding cycle: [Errno 5] I/O error
+2025-09-03 08:11:12 | TelegramForwarder | ERROR | run_user_forwarding_cycle:535 | [+917354769260] Error in forwarding cycle: [Errno 5] I/O error
+2025-09-03 08:11:12 | TelegramForwarder | ERROR | run:398 | Critical error in multi-user bot execution: [Errno 5] I/O error

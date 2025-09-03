@@ -1,0 +1,429 @@
+2025-09-03 08:09:09 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 08:09:09 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 08:10:11 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_081011 | Targets: 5
+2025-09-03 08:10:11 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 5}
+2025-09-03 08:10:11 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_081011 | Targets: 3
+2025-09-03 08:10:11 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 08:10:11 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 08:10:11 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 08:10:11 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 979, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 08:10:11 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/AutoAdsService (type: public_channel)
+2025-09-03 08:10:11 | TelegramForwarder | INFO | log_info:470 | Forwarding to channel: AutoAdService
+2025-09-03 08:10:11 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 08:10:12 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to AutoAdsService
+2025-09-03 08:10:12 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 08:11:12 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/2 (type: private_topic)
+2025-09-03 08:11:12 | TelegramForwarder | ERROR | run_user_forwarding_cycle:535 | [+919720613767] Error in forwarding cycle: [Errno 5] I/O error
+2025-09-03 08:11:12 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing
+2025-09-03 08:11:12 | TelegramForwarder | ERROR | run_user_forwarding_cycle:535 | [+917354769260] Error in forwarding cycle: [Errno 5] I/O error
+2025-09-03 08:11:12 | TelegramForwarder | ERROR | run:398 | Critical error in multi-user bot execution: [Errno 5] I/O error
+2025-09-03 08:36:40 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 08:36:40 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 08:38:04 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 08:38:04 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 08:52:27 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 08:52:27 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 08:52:29 | TelegramForwarder | INFO | cleanup:621 | Multi-user bot shutdown completed
+2025-09-03 08:52:29 | TelegramForwarder | INFO | cleanup:621 | Multi-user bot shutdown completed
+2025-09-03 09:09:21 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 09:09:21 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 09:09:23 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_090923 | Targets: 5
+2025-09-03 09:09:23 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 5}
+2025-09-03 09:09:23 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_090923 | Targets: 3
+2025-09-03 09:09:23 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 09:09:23 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 979, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:09:23 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/AutoAdsService (type: public_channel)
+2025-09-03 09:09:23 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:09:23 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 09:09:23 | TelegramForwarder | INFO | log_info:470 | Forwarding to channel: AutoAdService
+2025-09-03 09:09:23 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 09:09:23 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to AutoAdsService
+2025-09-03 09:09:23 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:10:23 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/2 (type: private_topic)
+2025-09-03 09:10:23 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 09:10:24 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 09:10:24 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing
+2025-09-03 09:10:24 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:10:24 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 09:11:24 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/3 (type: private_topic)
+2025-09-03 09:11:24 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 3 in supergroup: Testing the bot
+2025-09-03 09:11:24 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/1 (type: private_topic)
+2025-09-03 09:11:24 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:11:24 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_090923", "duration": 121.334756, "total_targets": 3, "successful_forwards": 5, "failed_forwards": 0, "success_rate": 166.66666666666669, "errors_count": 0}
+2025-09-03 09:11:24 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing
+2025-09-03 09:11:24 | TelegramForwarder | WARNING | log_warning:462 | WARNING | No active session for forwarding result
+2025-09-03 09:12:24 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_091224 | Targets: 3
+2025-09-03 09:12:24 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #2 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 09:12:24 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:12:24 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 09:12:24 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 09:12:24 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/42 (type: private_topic)
+2025-09-03 09:12:24 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:12:24 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 42 in supergroup: Testing
+2025-09-03 09:12:25 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 09:13:24 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 09:13:25 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 09:13:25 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/+BpfSkmJMvTMyOWI9 (type: invite_link_plus)
+2025-09-03 09:13:25 | TelegramForwarder | INFO | _resolve_invite_link:259 | Checking invite link: BpfSkmJMvTMyOWI9
+2025-09-03 09:13:25 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:13:25 | TelegramForwarder | INFO | _resolve_invite_link:265 | Invite leads to: Messages (Type: Channel)
+2025-09-03 09:13:25 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Successfully joined supergroup: Messages | {"id": 2914926984, "title": "Messages", "username": null, "type": "supergroup", "participants_count": null, "access_hash": 3228085165420454251}
+2025-09-03 09:13:25 | TelegramForwarder | INFO | log_info:470 | Forwarding to supergroup: Messages
+2025-09-03 09:13:25 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to BpfSkmJMvTMyOWI9
+2025-09-03 09:13:25 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_091224", "duration": 61.000058, "total_targets": 3, "successful_forwards": 4, "failed_forwards": 0, "success_rate": 133.33333333333331, "errors_count": 0}
+2025-09-03 09:14:25 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/3 (type: private_topic)
+2025-09-03 09:14:25 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 3 in supergroup: Testing the bot
+2025-09-03 09:14:25 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_091425 | Targets: 5
+2025-09-03 09:14:25 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #2 | {"mode": "preserve", "source": "me", "targets": 5}
+2025-09-03 09:14:25 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:14:25 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_091425", "duration": 0.113608, "total_targets": 5, "successful_forwards": 1, "failed_forwards": 0, "success_rate": 20.0, "errors_count": 0}
+2025-09-03 09:14:25 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 979, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:14:25 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/AutoAdsService (type: public_channel)
+2025-09-03 09:14:25 | TelegramForwarder | INFO | log_info:470 | Forwarding to channel: AutoAdService
+2025-09-03 09:14:26 | TelegramForwarder | WARNING | log_warning:462 | WARNING | No active session for forwarding result
+2025-09-03 09:15:25 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_091525 | Targets: 3
+2025-09-03 09:15:25 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #3 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 09:15:25 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:15:25 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 09:15:26 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 09:15:26 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/2 (type: private_topic)
+2025-09-03 09:15:26 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:15:26 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing
+2025-09-03 09:15:26 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 09:16:26 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 09:16:26 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 09:16:26 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/1 (type: private_topic)
+2025-09-03 09:16:26 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:16:26 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing
+2025-09-03 09:16:26 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 09:17:26 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/3 (type: private_topic)
+2025-09-03 09:17:26 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 3 in supergroup: Testing the bot
+2025-09-03 09:17:26 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/42 (type: private_topic)
+2025-09-03 09:17:26 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:17:26 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_091525", "duration": 121.268309, "total_targets": 3, "successful_forwards": 5, "failed_forwards": 0, "success_rate": 166.66666666666669, "errors_count": 0}
+2025-09-03 09:17:27 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 42 in supergroup: Testing
+2025-09-03 09:17:27 | TelegramForwarder | WARNING | log_warning:462 | WARNING | No active session for forwarding result
+2025-09-03 09:18:26 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_091826 | Targets: 3
+2025-09-03 09:18:26 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #4 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 09:18:27 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:18:27 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 09:18:27 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 09:18:27 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/+BpfSkmJMvTMyOWI9 (type: invite_link_plus)
+2025-09-03 09:18:27 | TelegramForwarder | INFO | _resolve_invite_link:259 | Checking invite link: BpfSkmJMvTMyOWI9
+2025-09-03 09:18:27 | TelegramForwarder | INFO | _resolve_invite_link:265 | Invite leads to: Messages (Type: Channel)
+2025-09-03 09:18:27 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Successfully joined supergroup: Messages | {"id": 2914926984, "title": "Messages", "username": null, "type": "supergroup", "participants_count": null, "access_hash": 3228085165420454251}
+2025-09-03 09:18:27 | TelegramForwarder | INFO | log_info:470 | Forwarding to supergroup: Messages
+2025-09-03 09:18:27 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:18:27 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to BpfSkmJMvTMyOWI9
+2025-09-03 09:18:27 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_091826", "duration": 0.704978, "total_targets": 3, "successful_forwards": 2, "failed_forwards": 0, "success_rate": 66.66666666666666, "errors_count": 0}
+2025-09-03 09:18:57 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 09:18:57 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 09:18:57 | TelegramForwarder | WARNING | log_warning:462 | WARNING | No active session for forwarding result
+2025-09-03 09:19:27 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_091927 | Targets: 5
+2025-09-03 09:19:27 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #3 | {"mode": "preserve", "source": "me", "targets": 5}
+2025-09-03 09:19:27 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/3 (type: private_topic)
+2025-09-03 09:19:27 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 979, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:19:27 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/AutoAdsService (type: public_channel)
+2025-09-03 09:19:27 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 3 in supergroup: Testing the bot
+2025-09-03 09:19:27 | TelegramForwarder | INFO | log_info:470 | Forwarding to channel: AutoAdService
+2025-09-03 09:19:28 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:19:28 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_091927", "duration": 0.385924, "total_targets": 5, "successful_forwards": 1, "failed_forwards": 0, "success_rate": 20.0, "errors_count": 0}
+2025-09-03 09:19:28 | TelegramForwarder | WARNING | log_warning:462 | WARNING | No active session for forwarding result
+2025-09-03 09:19:46 | TelegramForwarder | INFO | cleanup:621 | Multi-user bot shutdown completed
+2025-09-03 09:38:36 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 09:38:36 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 09:38:38 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_093838 | Targets: 5
+2025-09-03 09:38:38 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 5}
+2025-09-03 09:38:38 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_093838 | Targets: 3
+2025-09-03 09:38:38 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 09:38:38 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 979, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:38:38 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/AutoAdsService (type: public_channel)
+2025-09-03 09:38:38 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:38:38 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 09:38:38 | TelegramForwarder | INFO | log_info:470 | Forwarding to channel: AutoAdService
+2025-09-03 09:38:38 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 09:38:38 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to AutoAdsService
+2025-09-03 09:38:38 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:39:08 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 09:39:08 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 09:39:09 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:39:38 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/2 (type: private_topic)
+2025-09-03 09:39:38 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing
+2025-09-03 09:39:39 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 09:40:39 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/1 (type: private_topic)
+2025-09-03 09:40:39 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing
+2025-09-03 09:40:39 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 09:40:48 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_094048 | Targets: 3
+2025-09-03 09:40:48 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 09:40:48 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:40:48 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 09:40:48 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 09:40:49 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:41:19 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 09:41:19 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 09:41:19 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:41:40 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/42 (type: private_topic)
+2025-09-03 09:41:42 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 42 in supergroup: Testing
+2025-09-03 09:41:42 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 09:41:50 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/3 (type: private_topic)
+2025-09-03 09:41:50 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 3 in supergroup: Testing the bot
+2025-09-03 09:41:50 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:41:50 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_094048", "duration": 62.059874, "total_targets": 3, "successful_forwards": 4, "failed_forwards": 0, "success_rate": 133.33333333333331, "errors_count": 0}
+2025-09-03 09:42:35 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_094235 | Targets: 3
+2025-09-03 09:42:35 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #2 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 09:42:35 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:42:35 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 09:42:35 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 09:42:35 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:42:57 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/+BpfSkmJMvTMyOWI9 (type: invite_link_plus)
+2025-09-03 09:42:57 | TelegramForwarder | INFO | _resolve_invite_link:259 | Checking invite link: BpfSkmJMvTMyOWI9
+2025-09-03 09:42:57 | TelegramForwarder | INFO | _resolve_invite_link:265 | Invite leads to: Messages (Type: Channel)
+2025-09-03 09:42:57 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Successfully joined supergroup: Messages | {"id": 2914926984, "title": "Messages", "username": null, "type": "supergroup", "participants_count": null, "access_hash": 3228085165420454251}
+2025-09-03 09:42:57 | TelegramForwarder | INFO | log_info:470 | Forwarding to supergroup: Messages
+2025-09-03 09:42:57 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to BpfSkmJMvTMyOWI9
+2025-09-03 09:42:57 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_094235", "duration": 22.310759, "total_targets": 3, "successful_forwards": 2, "failed_forwards": 0, "success_rate": 66.66666666666666, "errors_count": 0}
+2025-09-03 09:43:05 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 09:43:06 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 09:43:06 | TelegramForwarder | WARNING | log_warning:462 | WARNING | No active session for forwarding result
+2025-09-03 09:43:36 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/3 (type: private_topic)
+2025-09-03 09:43:36 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 3 in supergroup: Testing the bot
+2025-09-03 09:43:36 | TelegramForwarder | WARNING | log_warning:462 | WARNING | No active session for forwarding result
+2025-09-03 09:43:57 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_094357 | Targets: 5
+2025-09-03 09:43:57 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #2 | {"mode": "preserve", "source": "me", "targets": 5}
+2025-09-03 09:43:57 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 979, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:43:57 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/AutoAdsService (type: public_channel)
+2025-09-03 09:43:57 | TelegramForwarder | INFO | log_info:470 | Forwarding to channel: AutoAdService
+2025-09-03 09:43:58 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to AutoAdsService
+2025-09-03 09:44:07 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_094407 | Targets: 3
+2025-09-03 09:44:07 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #3 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 09:44:07 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:44:07 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 09:44:07 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 09:44:07 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:44:39 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 09:44:39 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 09:44:39 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:45:00 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/2 (type: private_topic)
+2025-09-03 09:45:00 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing
+2025-09-03 09:45:01 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 09:45:10 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/3 (type: private_topic)
+2025-09-03 09:45:11 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 3 in supergroup: Testing the bot
+2025-09-03 09:45:11 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:45:11 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_094407", "duration": 63.97745, "total_targets": 3, "successful_forwards": 4, "failed_forwards": 0, "success_rate": 133.33333333333331, "errors_count": 0}
+2025-09-03 09:45:41 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_094541 | Targets: 3
+2025-09-03 09:45:41 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #4 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 09:45:41 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:45:41 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 09:45:41 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 09:45:41 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:46:01 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/1 (type: private_topic)
+2025-09-03 09:46:01 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing
+2025-09-03 09:46:02 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 09:46:11 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 09:46:12 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 09:46:12 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:46:42 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/3 (type: private_topic)
+2025-09-03 09:46:42 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 3 in supergroup: Testing the bot
+2025-09-03 09:46:42 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:46:42 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_094541", "duration": 61.533305, "total_targets": 3, "successful_forwards": 4, "failed_forwards": 0, "success_rate": 133.33333333333331, "errors_count": 0}
+2025-09-03 09:47:04 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/42 (type: private_topic)
+2025-09-03 09:47:04 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 42 in supergroup: Testing
+2025-09-03 09:47:04 | TelegramForwarder | WARNING | log_warning:462 | WARNING | No active session for forwarding result
+2025-09-03 09:47:14 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_094714 | Targets: 3
+2025-09-03 09:47:14 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #5 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 09:47:15 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:47:15 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 09:47:15 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 09:47:15 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:47:45 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 09:47:45 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 09:47:45 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:48:04 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/+BpfSkmJMvTMyOWI9 (type: invite_link_plus)
+2025-09-03 09:48:04 | TelegramForwarder | INFO | _resolve_invite_link:259 | Checking invite link: BpfSkmJMvTMyOWI9
+2025-09-03 09:48:04 | TelegramForwarder | INFO | _resolve_invite_link:265 | Invite leads to: Messages (Type: Channel)
+2025-09-03 09:48:04 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Successfully joined supergroup: Messages | {"id": 2914926984, "title": "Messages", "username": null, "type": "supergroup", "participants_count": null, "access_hash": 3228085165420454251}
+2025-09-03 09:48:04 | TelegramForwarder | INFO | log_info:470 | Forwarding to supergroup: Messages
+2025-09-03 09:48:04 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to BpfSkmJMvTMyOWI9
+2025-09-03 09:48:04 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_094714", "duration": 50.054456, "total_targets": 3, "successful_forwards": 3, "failed_forwards": 0, "success_rate": 100.0, "errors_count": 0}
+2025-09-03 09:48:15 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/3 (type: private_topic)
+2025-09-03 09:48:15 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 3 in supergroup: Testing the bot
+2025-09-03 09:48:16 | TelegramForwarder | WARNING | log_warning:462 | WARNING | No active session for forwarding result
+2025-09-03 09:48:46 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_094846 | Targets: 3
+2025-09-03 09:48:46 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #6 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 09:48:46 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:48:46 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 09:48:46 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 09:48:46 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:48:51 | TelegramForwarder | INFO | cleanup:621 | Multi-user bot shutdown completed
+2025-09-03 09:48:57 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 09:48:57 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 09:48:57 | TelegramForwarder | INFO | cleanup:621 | Multi-user bot shutdown completed
+2025-09-03 09:49:04 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 09:49:04 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 09:49:04 | TelegramForwarder | INFO | cleanup:621 | Multi-user bot shutdown completed
+2025-09-03 09:49:16 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 09:49:16 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 09:49:18 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_094918 | Targets: 5
+2025-09-03 09:49:18 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 5}
+2025-09-03 09:49:18 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_094918 | Targets: 4
+2025-09-03 09:49:18 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 4}
+2025-09-03 09:49:18 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:49:18 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 09:49:18 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 979, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 09:49:18 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/AutoAdsService (type: public_channel)
+2025-09-03 09:49:18 | TelegramForwarder | INFO | log_info:470 | Forwarding to channel: AutoAdService
+2025-09-03 09:49:18 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 09:49:18 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to AutoAdsService
+2025-09-03 09:49:19 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 09:49:29 | TelegramForwarder | INFO | cleanup:621 | Multi-user bot shutdown completed
+2025-09-03 12:28:02 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 12:28:02 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 12:28:04 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_122804 | Targets: 5
+2025-09-03 12:28:04 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 5}
+2025-09-03 12:28:04 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_122804 | Targets: 4
+2025-09-03 12:28:04 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 4}
+2025-09-03 12:28:04 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 979, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 12:28:04 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/AutoAdsService (type: public_channel)
+2025-09-03 12:28:05 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 12:28:05 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 12:28:05 | TelegramForwarder | INFO | log_info:470 | Forwarding to channel: AutoAdService
+2025-09-03 12:28:05 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 12:28:05 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to AutoAdsService
+2025-09-03 12:28:05 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:28:35 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 12:28:35 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 12:28:35 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:29:05 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/2 (type: private_topic)
+2025-09-03 12:29:05 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing
+2025-09-03 12:29:05 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 12:29:05 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/3 (type: private_topic)
+2025-09-03 12:29:06 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 3 in supergroup: Testing the bot
+2025-09-03 12:29:06 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:29:36 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/66 (type: private_topic)
+2025-09-03 12:29:36 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 66 in supergroup: Testing the bot
+2025-09-03 12:29:36 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:29:36 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_122804", "duration": 91.93467, "total_targets": 4, "successful_forwards": 6, "failed_forwards": 0, "success_rate": 150.0, "errors_count": 0}
+2025-09-03 12:30:05 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/1 (type: private_topic)
+2025-09-03 12:30:06 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing
+2025-09-03 12:30:06 | TelegramForwarder | WARNING | log_warning:462 | WARNING | No active session for forwarding result
+2025-09-03 12:30:06 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_123006 | Targets: 3
+2025-09-03 12:30:06 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #2 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 12:30:06 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 12:30:06 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 12:30:07 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 12:30:07 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:30:29 | TelegramForwarder | INFO | cleanup:621 | Multi-user bot shutdown completed
+2025-09-03 12:35:49 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 12:35:49 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 12:35:52 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_123552 | Targets: 5
+2025-09-03 12:35:52 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 5}
+2025-09-03 12:35:52 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_123552 | Targets: 4
+2025-09-03 12:35:52 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 4}
+2025-09-03 12:35:52 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 979, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 12:35:52 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/AutoAdsService (type: public_channel)
+2025-09-03 12:35:52 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 12:35:52 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 12:35:52 | TelegramForwarder | INFO | log_info:470 | Forwarding to channel: AutoAdService
+2025-09-03 12:35:52 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 12:35:52 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:35:52 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to AutoAdsService
+2025-09-03 12:36:22 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 12:36:22 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 12:36:22 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:36:52 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/2 (type: private_topic)
+2025-09-03 12:36:52 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing
+2025-09-03 12:36:52 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/3 (type: private_topic)
+2025-09-03 12:36:53 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 12:36:53 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 3 in supergroup: Testing the bot
+2025-09-03 12:36:53 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:37:23 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/66 (type: private_topic)
+2025-09-03 12:37:23 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 66 in supergroup: Testing the bot
+2025-09-03 12:37:24 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:37:24 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_123552", "duration": 92.516267, "total_targets": 4, "successful_forwards": 6, "failed_forwards": 0, "success_rate": 150.0, "errors_count": 0}
+2025-09-03 12:37:53 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/1 (type: private_topic)
+2025-09-03 12:37:53 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing
+2025-09-03 12:37:53 | TelegramForwarder | WARNING | log_warning:462 | WARNING | No active session for forwarding result
+2025-09-03 12:37:54 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_123754 | Targets: 3
+2025-09-03 12:37:54 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #2 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 12:37:54 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 12:37:54 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 12:37:54 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 12:37:55 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:38:25 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 12:38:53 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/42 (type: private_topic)
+2025-09-03 12:39:00 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 42 in supergroup: Testing
+2025-09-03 12:39:01 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 12:39:30 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 12:39:31 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:39:49 | TelegramForwarder | INFO | cleanup:621 | Multi-user bot shutdown completed
+2025-09-03 12:48:29 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 12:48:29 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 12:48:32 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_124832 | Targets: 5
+2025-09-03 12:48:32 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 5}
+2025-09-03 12:48:32 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_124832 | Targets: 4
+2025-09-03 12:48:32 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 4}
+2025-09-03 12:48:32 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 979, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 12:48:32 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/AutoAdsService (type: public_channel)
+2025-09-03 12:48:32 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 12:48:32 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 12:48:32 | TelegramForwarder | INFO | log_info:470 | Forwarding to channel: AutoAdService
+2025-09-03 12:48:33 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 12:48:33 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to AutoAdsService
+2025-09-03 12:48:33 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:49:03 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 12:49:03 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 12:49:03 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:49:33 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/2 (type: private_topic)
+2025-09-03 12:49:33 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing
+2025-09-03 12:49:33 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 12:49:33 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/3 (type: private_topic)
+2025-09-03 12:49:33 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 3 in supergroup: Testing the bot
+2025-09-03 12:49:34 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:50:04 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/66 (type: private_topic)
+2025-09-03 12:50:04 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 66 in supergroup: Testing the bot
+2025-09-03 12:50:04 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:50:04 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_124832", "duration": 92.029309, "total_targets": 4, "successful_forwards": 6, "failed_forwards": 0, "success_rate": 150.0, "errors_count": 0}
+2025-09-03 12:50:33 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/1 (type: private_topic)
+2025-09-03 12:50:33 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing
+2025-09-03 12:50:33 | TelegramForwarder | WARNING | log_warning:462 | WARNING | No active session for forwarding result
+2025-09-03 12:50:34 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_125034 | Targets: 3
+2025-09-03 12:50:34 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #2 | {"mode": "preserve", "source": "me", "targets": 3}
+2025-09-03 12:50:34 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 12:50:34 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 12:50:34 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 12:50:35 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:51:05 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/2 (type: private_topic)
+2025-09-03 12:51:05 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 2 in supergroup: Testing the bot
+2025-09-03 12:51:07 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:51:33 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/3089800937/42 (type: private_topic)
+2025-09-03 12:51:34 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 42 in supergroup: Testing
+2025-09-03 12:51:34 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1003089800937
+2025-09-03 12:51:37 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/3 (type: private_topic)
+2025-09-03 12:51:37 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 3 in supergroup: Testing the bot
+2025-09-03 12:51:37 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:51:37 | TelegramForwarder | INFO | log_info:470 | STATS | SESSION_SUMMARY | {"session_id": "enhanced_forward_20250903_125034", "duration": 63.084519, "total_targets": 3, "successful_forwards": 4, "failed_forwards": 0, "success_rate": 133.33333333333331, "errors_count": 0}
+2025-09-03 12:52:07 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_125207 | Targets: 4
+2025-09-03 12:52:07 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #3 | {"mode": "preserve", "source": "me", "targets": 4}
+2025-09-03 12:52:07 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 12:52:07 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 12:52:08 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 12:52:08 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 12:52:30 | TelegramForwarder | INFO | cleanup:621 | Multi-user bot shutdown completed
+2025-09-03 12:55:44 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 12:55:44 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 12:55:46 | TelegramForwarder | INFO | cleanup:621 | Multi-user bot shutdown completed
+2025-09-03 13:03:44 | TelegramForwarder | INFO | setup_logging:110 | Enhanced logging system initialized
+2025-09-03 13:03:44 | TelegramForwarder | INFO | setup_logging:111 | Log configuration: {'log_directory': 'logs', 'max_log_files': 60, 'max_file_size': 52428800, 'backup_count': 5, 'compress_old_logs': True, 'log_format': '%(asctime)s | %(name)s | %(levelname)s | %(funcName)s:%(lineno)d | %(message)s', 'date_format': '%Y-%m-%d %H:%M:%S', 'console_output': False, 'console_level': <LogLevel.INFO: 20>}
+2025-09-03 13:03:52 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_130352 | Targets: 5
+2025-09-03 13:03:52 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 5}
+2025-09-03 13:03:52 | TelegramForwarder | INFO | log_info:470 | SESSION_START | enhanced_forward_20250903_130352 | Targets: 4
+2025-09-03 13:03:52 | TelegramForwarder | INFO | log_info:470 | Starting enhanced forward cycle #1 | {"mode": "preserve", "source": "me", "targets": 4}
+2025-09-03 13:03:52 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 54, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 13:03:52 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/c/2899891880/1 (type: private_topic)
+2025-09-03 13:03:52 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Retrieved message from me | {"message_id": 979, "message_type": "text", "preview": "Text: \ud83d\udcf1 Unbans - Directly From Rep\n\nFast and reliable un..."}
+2025-09-03 13:03:52 | TelegramForwarder | INFO | log_info:470 | Resolving entity for https://t.me/AutoAdsService (type: public_channel)
+2025-09-03 13:03:52 | TelegramForwarder | INFO | log_info:470 | Forwarding to topic 1 in supergroup: Testing the bot
+2025-09-03 13:03:52 | TelegramForwarder | INFO | log_info:470 | Forwarding to channel: AutoAdService
+2025-09-03 13:03:53 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to -1002899891880
+2025-09-03 13:03:53 | TelegramForwarder | INFO | log_success:444 | SUCCESS | Forward to AutoAdsService
+2025-09-03 13:03:56 | TelegramForwarder | INFO | cleanup:621 | Multi-user bot shutdown completed
