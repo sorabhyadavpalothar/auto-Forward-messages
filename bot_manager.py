@@ -128,7 +128,7 @@ class BotManager:
     def _load_global_config(self) -> bool:
         """Load global configuration settings"""
         try:
-            config_path = Path('database/config.json')
+            config_path = Path('config.json')
             
             if config_path.exists():
                 with config_path.open('r', encoding='utf-8') as f:

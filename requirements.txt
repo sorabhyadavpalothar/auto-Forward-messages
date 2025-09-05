@@ -1,3 +1,9 @@
 telethon
 colorama
 watchdog
+python-telegram-bot
+bcrypt
+aiofiles
+asyncio
+datetime
+logging

@@ -1,0 +1,15 @@
+{
+  "bot_token": "8477961157:AAElLx-MZO9PJFRT64KR14HAyOsjKMELGCg",
+  "database_config": {
+    "folder": "database",
+    "files": ["credentials", "admin", "groups"]
+  },
+  "auto_start_forwarding": false,
+  "skip_confirmation": false,
+  "concurrent_users": true,
+  "default_delay": 5,
+  "default_forward_mode": "1",
+  "execution_strategy": "asyncio",
+  "max_workers": null,
+  "daemon_threads": true
+}
